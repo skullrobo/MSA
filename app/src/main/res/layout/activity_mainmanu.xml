@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_mainback"
+    tools:context=".activity.MainManuActivity">
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="99dp"
+        android:layout_height="108dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/ic_launcher"
+        android:focusableInTouchMode="true"
+        android:onClick="Scan_Manual"
+        android:text="\n\n\nScan Manual" />
+</RelativeLayout>
+
+
